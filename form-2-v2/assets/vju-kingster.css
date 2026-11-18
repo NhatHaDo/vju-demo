@@ -1,0 +1,22 @@
+/* Form 2 v2 – phần bổ sung cho bản Kingster lưu về */
+.kingster-logo-inner img{width:170px;height:auto;max-width:none}
+.kingster-mobile-logo img, .kingster-mobile-header .kingster-logo-inner img{width:130px;height:auto}
+.vju-k-actions{display:flex;flex-direction:column;align-items:center;gap:14px}
+.vju-k-actions .gdlr-core-button{background:#ab2523;color:#fff;padding:14px 28px;font-weight:600;border-radius:0}
+.vju-k-mail{font-weight:600}
+.vju-k-mail-light{color:#fff}
+.vju-k-map{display:block;width:100%;height:500px;border:0}
+/* Slider tĩnh (bản lưu không chạy được thư viện slider): xếp lại cho màn hình nhỏ */
+@media (max-width: 999px){
+  sr7-module#SR7_1_1, #SR7_1_1 sr7-content{position:relative!important;height:auto!important;width:100%!important;left:0!important;top:0!important}
+  #SR7_1_1 sr7-adjuster{display:none!important}
+  #SR7_1_1 sr7-slide[data-key="7"]{display:none!important}
+  #SR7_1_1 sr7-slide[data-key="1"]{display:none!important}
+  #SR7_1_1 sr7-slide[data-key="2"]{position:relative!important;display:flex!important;flex-direction:column;align-items:flex-start;gap:14px;padding:90px 24px 150px;min-height:440px}
+  #SR7_1_1 sr7-slide[data-key="2"] > sr7-mask{position:absolute!important;inset:0;width:100%!important;height:100%!important}
+  #SR7_1_1 sr7-slide[data-key="2"] > sr7-mask sr7-bg{height:100%!important}
+  #SR7_1_1 sr7-slide[data-key="2"] > :not(sr7-mask){position:relative!important;left:auto!important;top:auto!important;transform:none!important;translate:none!important;white-space:normal!important;width:auto!important;height:auto!important;z-index:3!important;margin:0!important}
+  #SR7_1_1-2-4{display:none!important}
+  #SR7_1_1-2-1{font-size:20px!important;line-height:1.35!important}
+  #SR7_1_1-2-2,#SR7_1_1-2-3{font-size:46px!important;line-height:1.1!important}
+}
