@@ -418,6 +418,7 @@ body.e-side-open { overflow: hidden; }
   .e-icon-btn { display: inline-flex; }
   .e-search-toggle--mobile { margin-left: auto; }
   .e-topbar__links li:not(:last-child) { display: none; }
+  .e-topbar__links li:last-child::before { display: none; }
   .e-hero { height: 620px; }
   .e-hero__arrow { display: none; }
   .e-quick__list { grid-template-columns: repeat(3, 1fr); }
