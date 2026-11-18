@@ -11,3 +11,4 @@ img.branding-logo{width:150px;height:auto}
 .home .tm-modern-slider .slide-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(17,17,17,.72) 0%,rgba(17,17,17,.45) 55%,rgba(17,17,17,.15) 100%)}
 .elementor-2136 .elementor-element.elementor-element-b7da4d4{background:#000 url("vju-students-campus-2025.jpg") center/cover no-repeat}
 .elementor-2136 .elementor-element.elementor-element-b7da4d4>.elementor-background-overlay{opacity:.6}
+.elementor-2136 .elementor-element.elementor-element-b7da4d4>.elementor-motion-effects-container{display:none}
