@@ -1,8 +1,6 @@
-:root{--vju-red:#ab2523}
-img.branding-logo{width:150px;height:auto}
-.page-footer img{width:160px;height:auto}
-.vju-connect-actions{display:flex;flex-wrap:wrap;gap:16px 24px;align-items:center;justify-content:center}
-.vju-connect-mail{font-weight:600;color:#fff}
-.tm-modern-slider .slide-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(17,17,17,.72) 0%,rgba(17,17,17,.45) 55%,rgba(17,17,17,.15) 100%)}
-.elementor-2136 .elementor-element.elementor-element-b7da4d4{background:#000 url("vju-students-campus-2025.jpg") center/cover no-repeat}
-.elementor-2136 .elementor-element.elementor-element-b7da4d4>.elementor-background-overlay{opacity:.6}
+
+/* Theme dùng Font Awesome Pro; bản free chỉ có đủ icon ở bộ solid nên trỏ mọi weight về solid */
+@font-face{font-family:"Font Awesome 5 Pro";font-style:normal;font-weight:300;font-display:block;src:url("../fa/webfonts/fa-solid-900.woff2") format("woff2")}
+@font-face{font-family:"Font Awesome 5 Pro";font-style:normal;font-weight:400;font-display:block;src:url("../fa/webfonts/fa-solid-900.woff2") format("woff2")}
+@font-face{font-family:"Font Awesome 5 Pro";font-style:normal;font-weight:500;font-display:block;src:url("../fa/webfonts/fa-solid-900.woff2") format("woff2")}
+@font-face{font-family:"Font Awesome 5 Pro";font-style:normal;font-weight:900;font-display:block;src:url("../fa/webfonts/fa-solid-900.woff2") format("woff2")}
