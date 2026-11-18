@@ -12,3 +12,5 @@ img.branding-logo{width:150px;height:auto}
 .elementor-2136 .elementor-element.elementor-element-b7da4d4{background:#000 url("vju-students-campus-2025.jpg") center/cover no-repeat}
 .elementor-2136 .elementor-element.elementor-element-b7da4d4>.elementor-background-overlay{opacity:.6}
 .elementor-2136 .elementor-element.elementor-element-b7da4d4>.elementor-motion-effects-container{display:none}
+.vju-red-band .vju-connect-actions .tm-button.style-flat{border-color:#111}
+.vju-red-band .vju-connect-actions .tm-button.style-flat:before{background-color:#111}
