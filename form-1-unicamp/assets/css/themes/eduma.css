@@ -1,0 +1,62 @@
+/* Form 4 — Eduma-inspired: learning-first portal with course/program discovery and strong calls to action. */
+:root{--vju-red:#e85b35;--vju-red-dark:#c74424;--vju-navy:#172d52;--vju-ink:#17223b;--vju-text:#5d6677;--vju-muted:#f5f6fa;--vju-line:#e7e9ef;--font-body:Arial,Helvetica,sans-serif;--font-heading:Arial,Helvetica,sans-serif}
+body{font-size:14px;line-height:1.75;background:#fff}
+.site-container{width:min(1240px,calc(100% - 60px))}
+.vju-header{position:relative;box-shadow:0 4px 20px #172d5212}
+.header-main{height:84px;grid-template-columns:auto 1fr auto;gap:24px}
+.brand-lockup{grid-column:1;width:200px;justify-content:flex-start}
+.utility-links{grid-column:2;justify-self:end;gap:18px}
+.header-actions{grid-column:3;gap:14px}
+.primary-nav{background:#fff;border-top:1px solid #edf0f4;border-bottom:1px solid #edf0f4}
+.primary-menu{min-height:58px;justify-content:flex-start;gap:clamp(14px,2vw,30px)}
+.nav-link-row{min-height:58px}
+.primary-menu>.nav-branch>.nav-link-row>a{color:var(--vju-ink);font-size:12px;font-weight:800}
+.submenu-toggle{color:var(--vju-ink)}
+.submenu-list{border-top:3px solid var(--vju-red);border-radius:0 0 8px 8px}
+.hero-slider{min-height:570px}
+.hero-inner{min-height:570px;align-items:flex-start;justify-content:center}
+.hero-inner h1{max-width:720px;font-family:Arial,sans-serif;font-size:clamp(42px,5vw,66px);font-weight:800;line-height:1.08}
+.hero-shade{background:linear-gradient(90deg,#111d37e8 0%,#182d529c 52%,#172d5225 100%)}
+.hero-eyebrow{color:#ffd3c5}
+.button{border-radius:4px;font-weight:800}
+.button-primary{background:var(--vju-red)}
+.section{padding-block:78px}
+.section-heading h2,.welcome-copy h2,.story-copy h2{font-family:Arial,sans-serif;font-weight:800;letter-spacing:-.035em}
+.news-section{background:#f5f6fa}
+.news-grid{gap:20px}
+.content-card{overflow:hidden;border-radius:6px;background:#fff;box-shadow:0 5px 20px #182d520d}
+.content-card-image{aspect-ratio:1.45/1}
+.content-card-body{padding:18px 19px 22px}
+.content-card h3{font-family:Arial,sans-serif;font-size:15px;font-weight:800}
+.card-meta span{color:var(--vju-red)}
+.welcome-section{background:#fff}
+.welcome-photo-wrap{padding:0 18px 18px 0}
+.welcome-photo-wrap::before{top:18px;left:18px;border:0;background:#fce9e3}
+.welcome-photo{border-radius:6px}
+.photo-caption{background:var(--vju-red);border-radius:4px}
+.feature-section{background:#f5f6fa}
+.feature-card{border:0;border-radius:6px;background:#fff;box-shadow:0 5px 22px #172d520d}
+.feature-card:hover{box-shadow:0 12px 28px #172d521c}
+.feature-icon{border-radius:6px;background:#fff0eb;color:var(--vju-red)}
+.story-section{background:#172d52;color:#d6ddeb}
+.story-copy h2{color:#fff}
+.story-copy .eyebrow{color:#ffb69f}
+.study-section{background:#fff}
+.study-card{overflow:hidden;border-radius:6px;box-shadow:0 6px 24px #172d5212}
+.study-card-content h3{font-family:Arial,sans-serif;font-weight:800}
+.events-section{background:#f5f6fa}
+.events-grid .content-card{padding-bottom:20px}
+.connect-section{background:var(--vju-red)}
+.connect-actions .button-light{border-radius:4px}
+.vju-footer{background:#17233e}
+.page-hero{min-height:340px!important}
+.page-hero-shade{background:linear-gradient(90deg,#17233ee8,#172d5270)}
+.page-hero h1{font-family:Arial,sans-serif;font-weight:800}
+.page-content-section,.editorial-section,.article-layout-section{padding-block:68px}
+.editorial-card,.sidebar-card{border-radius:6px;box-shadow:0 5px 20px #172d520c}
+.editorial-card{border:1px solid #e8eaf0}
+.source-note{border-left:4px solid var(--vju-red);background:#fff4f0}
+.content-grid{gap:22px}
+.content-grid .content-card{padding-bottom:0}
+@media(max-width:900px){.header-main{grid-template-columns:auto 1fr;height:78px}.brand-lockup{grid-column:1}.utility-links{display:none}.header-actions{grid-column:2}.primary-menu{gap:12px}}
+@media(max-width:767px){.site-container{width:calc(100% - 34px)}.header-main{height:72px}.brand-lockup{width:165px}.hero-slider,.hero-inner{min-height:510px}.hero-inner h1{font-size:40px}.section{padding-block:56px}.news-grid,.feature-grid,.study-grid,.events-grid,.content-grid{grid-template-columns:1fr}.page-hero{min-height:285px!important}.page-hero h1{font-size:37px}}

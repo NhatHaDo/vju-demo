@@ -1,0 +1,53 @@
+/* Form 5 — Univet-inspired: contemporary institutional portal with clear academic pathways. */
+:root{--vju-red:#b32135;--vju-red-dark:#8e1728;--vju-navy:#153c58;--vju-ink:#183246;--vju-text:#5c6b76;--vju-muted:#f1f5f7;--vju-line:#dce5e9;--font-body:Arial,Helvetica,sans-serif;--font-heading:Georgia,'Times New Roman',serif}
+body{font-size:14px;line-height:1.8;background:#fff}
+.site-container{width:min(1260px,calc(100% - 64px))}
+.vju-header{position:relative;box-shadow:none;border-bottom:1px solid #dfe7eb}
+.header-main{height:96px;grid-template-columns:auto 1fr auto;gap:30px}
+.brand-lockup{grid-column:1;width:215px;justify-content:flex-start}
+.utility-links{grid-column:2;justify-self:end;gap:22px}
+.header-actions{grid-column:3;gap:18px}
+.primary-nav{background:var(--vju-navy);border:0}
+.primary-menu{min-height:58px;justify-content:center;gap:clamp(16px,2.2vw,34px)}
+.nav-link-row{min-height:58px}
+.primary-menu>.nav-branch>.nav-link-row>a{color:#fff;font-size:12px;font-weight:700}
+.submenu-list{border-top:3px solid #d5a84c}
+.hero-slider{min-height:620px}
+.hero-inner{min-height:620px;align-items:flex-start;justify-content:center}
+.hero-inner h1{max-width:740px;font-size:clamp(43px,5.2vw,70px);font-weight:700;letter-spacing:-.03em}
+.hero-shade{background:linear-gradient(90deg,#092b42e8 0%,#153c58a1 50%,#153c5824 100%)}
+.hero-eyebrow{color:#f0d79d}
+.button{border-radius:2px}
+.button-primary{background:var(--vju-red)}
+.section{padding-block:88px}
+.section-heading h2,.welcome-copy h2,.story-copy h2{font-weight:700;letter-spacing:-.025em}
+.news-section{background:#f1f5f7}
+.news-grid{gap:22px}
+.content-card{background:#fff;border:1px solid #e2e9ed}
+.content-card-image{aspect-ratio:1.48/1}
+.content-card-body{padding:18px 18px 22px}
+.content-card h3{font-size:15px;font-weight:700}
+.welcome-section{background:#fff}
+.welcome-photo-wrap::before{border:0;background:#e8eff2}
+.photo-caption{background:var(--vju-navy)}
+.feature-card{border:1px solid #e1e9ed;border-bottom:3px solid var(--vju-red);background:#fff}
+.feature-icon{border-radius:2px;color:#fff;background:var(--vju-navy)}
+.story-section{background:#f1f5f7}
+.study-section{background:#fff}
+.study-card{border:1px solid #e1e9ed}
+.study-card-content h3{font-weight:700}
+.events-section{background:#f1f5f7}
+.connect-section{background:var(--vju-red)}
+.connect-actions .button-light{border-radius:2px}
+.vju-footer{background:#0d2b40}
+.page-hero{min-height:360px!important}
+.page-hero-shade{background:linear-gradient(90deg,#092b42e8,#153c5866)}
+.page-hero h1{font-weight:700}
+.page-content-section,.editorial-section,.article-layout-section{padding-block:74px}
+.editorial-card{border:1px solid #dfe8ec;border-bottom:3px solid var(--vju-red);background:#fff}
+.sidebar-card{border-top:3px solid var(--vju-red);background:#f1f5f7}
+.source-note{border-left:4px solid var(--vju-red);background:#f1f5f7}
+.content-grid{gap:26px 22px}
+.content-grid .content-card{padding-bottom:18px}
+@media(max-width:900px){.header-main{grid-template-columns:auto 1fr;height:82px}.brand-lockup{grid-column:1}.utility-links{display:none}.header-actions{grid-column:2}.primary-menu{gap:12px}}
+@media(max-width:767px){.site-container{width:calc(100% - 36px)}.header-main{height:74px}.brand-lockup{width:170px}.hero-slider,.hero-inner{min-height:530px}.hero-inner h1{font-size:41px}.section{padding-block:58px}.news-grid,.feature-grid,.study-grid,.events-grid,.content-grid{grid-template-columns:1fr}.page-hero{min-height:295px!important}.page-hero h1{font-size:38px}}

@@ -1,0 +1,63 @@
+/* Form 3 — Unipix-inspired: contemporary editorial grid, strong geometry and vivid blue. */
+:root{--vju-red:#1769aa;--vju-red-dark:#0e4f86;--vju-navy:#092d4b;--vju-ink:#10283d;--vju-text:#586879;--vju-muted:#f2f7fb;--vju-line:#dfe8ef;--font-body:Arial,Helvetica,sans-serif;--font-heading:Arial,Helvetica,sans-serif}
+body{background:#fff;font-size:14px;line-height:1.75}
+.site-container{width:min(1280px,calc(100% - 64px))}
+.vju-header{position:relative;box-shadow:0 5px 24px #0a355410}
+.header-main{height:88px;grid-template-columns:auto 1fr auto;gap:28px}
+.brand-lockup{grid-column:1;width:205px;justify-content:flex-start}
+.utility-links{grid-column:2;justify-self:end;gap:20px}
+.header-actions{grid-column:3;gap:14px}
+.primary-nav{background:#fff;border-top:1px solid #e7eef4;border-bottom:1px solid #e7eef4}
+.primary-menu{min-height:58px;justify-content:flex-start;gap:clamp(16px,2.2vw,32px)}
+.nav-link-row{min-height:58px}
+.primary-menu>.nav-branch>.nav-link-row>a{color:var(--vju-ink);font-size:12px;font-weight:800}
+.submenu-toggle{color:var(--vju-ink)}
+.submenu-list{border-top:3px solid var(--vju-red);border-radius:0 0 12px 12px}
+.hero-slider{min-height:600px;border-radius:0 0 42px 42px}
+.hero-inner{min-height:600px;align-items:flex-start;justify-content:center}
+.hero-inner h1{max-width:720px;font-family:Arial,sans-serif;font-size:clamp(44px,5.3vw,72px);font-weight:800;letter-spacing:-.055em;line-height:1.03}
+.hero-eyebrow{color:#b9e1ff}
+.hero-shade{background:linear-gradient(90deg,#061d35e8 0%,#0b3656a8 52%,#0b365622 100%)}
+.button{border-radius:7px;font-size:12px;text-transform:none;letter-spacing:0}
+.button-primary{box-shadow:0 9px 20px #062b4930}
+.section{padding-block:88px}
+.section-heading{align-items:center}
+.section-heading h2,.welcome-copy h2,.story-copy h2{font-family:Arial,sans-serif;font-weight:800;letter-spacing:-.045em}
+.news-section{background:#f3f8fc}
+.news-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+.content-card{overflow:hidden;border:1px solid #e6edf3;border-radius:12px;background:#fff;box-shadow:0 8px 24px #092d4b08}
+.content-card-image{aspect-ratio:1.4/1}
+.content-card-body{padding:19px 18px 22px}
+.content-card h3{font-family:Arial,sans-serif;font-size:15px;font-weight:800;line-height:1.45}
+.welcome-section{background:#fff}
+.welcome-grid{gap:64px}
+.welcome-photo-wrap{padding:0 0 22px 22px}
+.welcome-photo-wrap::before{top:18px;left:0;width:100%;height:80%;border:0;border-radius:16px;background:#dcecf8}
+.welcome-photo{border-radius:16px}
+.photo-caption{right:16px;bottom:0;border-radius:10px;background:var(--vju-navy)}
+.feature-grid{gap:18px}
+.feature-card{min-height:230px;border:1px solid #e2edf5;border-radius:12px;box-shadow:0 8px 25px #0a35540a}
+.feature-card:hover{border-color:#b6d8f0}
+.feature-icon{border-radius:12px;color:#fff;background:var(--vju-red)}
+.story-section{background:#092d4b;color:#c9d8e4}
+.story-copy h2{color:#fff}
+.story-copy .eyebrow{color:#a9d9ff}
+.story-photo-wrap img{border-radius:16px}
+.study-section{background:#f3f8fc}
+.study-card{overflow:hidden;border-radius:12px;box-shadow:0 10px 28px #092d4b10}
+.study-card-content h3{font-family:Arial,sans-serif;font-size:22px;font-weight:800}
+.events-grid .content-card{padding-bottom:0}
+.connect-section{background:linear-gradient(105deg,#0b3558,#1769aa);border-radius:28px;margin:0 24px}
+.connect-actions .button-light{border-radius:7px}
+.vju-footer{background:#071f35}
+.page-hero{min-height:350px!important}
+.page-hero-shade{background:linear-gradient(90deg,#06213be8,#0b4a7780)}
+.page-hero h1{font-family:Arial,sans-serif;font-weight:800;letter-spacing:-.045em}
+.page-content-section,.editorial-section,.article-layout-section{padding-block:72px}
+.editorial-card,.sidebar-card,.source-note{border-radius:12px}
+.editorial-card{border:1px solid #e1ebf3;box-shadow:0 8px 24px #092d4b08}
+.source-note{border-left:4px solid var(--vju-red);background:#f1f7fb}
+.content-grid{gap:24px}
+.content-grid .content-card{padding-bottom:0}
+@media(max-width:900px){.header-main{grid-template-columns:auto 1fr;height:80px}.brand-lockup{grid-column:1}.utility-links{display:none}.header-actions{grid-column:2}.primary-menu{gap:12px}}
+@media(max-width:767px){.site-container{width:calc(100% - 34px)}.header-main{height:74px}.brand-lockup{width:170px}.hero-slider,.hero-inner{min-height:520px}.hero-slider{border-radius:0 0 24px 24px}.hero-inner h1{font-size:42px}.section{padding-block:58px}.news-grid,.feature-grid,.study-grid,.events-grid,.content-grid{grid-template-columns:1fr}.connect-section{margin:0 10px;border-radius:18px}.page-hero{min-height:290px!important}.page-hero h1{font-size:38px}}
