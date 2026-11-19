@@ -1,0 +1,18 @@
+/* Form 4 v2 – phần bổ sung cho bản Eduma lưu về */
+:root, body{--e-global-color-primary:#ab2523;--e-global-color-secondary:#8a1d1b;--thim-body-primary-color:#ab2523;--thim-body-secondary-color:#8a1d1b;--thim-button-text-color:#fff}
+.thim-ekit-site-logo img{width:160px;height:auto;max-width:none}
+.site-footer [data-widget_type="image.default"] img{width:170px;height:auto}
+.vju-e-actions{display:flex;flex-wrap:wrap;gap:14px 22px;align-items:center}
+.vju-e-actions .widget-button{background:#ab2523;color:#fff;padding:12px 26px;font-weight:700;text-transform:uppercase;border-radius:4px}
+.vju-e-mail{font-weight:600}
+.thim-ekits-menu__nav > li > a{white-space:nowrap}
+@media (min-width:1025px){.thim-ekit__header ul.thim-ekits-menu__nav{gap:0!important}.thim-ekit__header ul.thim-ekits-menu__nav > li{margin:0!important;padding:0!important}.thim-ekit__header ul.thim-ekits-menu__nav > li > a{font-size:14px!important;padding-left:9px!important;padding-right:9px!important}}
+.elementor-element-09005ff .thim-ekits-manual-slide > .e-con{min-height:800px;background-size:cover;background-position:center}
+
+.elementor-button,.thim-ekit__header .elementor-button,.thim-ekits-manual-slide .elementor-button{color:#fff!important}
+.vju-ql h3.heading__primary{color:#fff!important}
+.top_site_main .page-title{color:#fff!important}
+.thim-ekit__header .elementor-button{white-space:nowrap}
+.widget-button{color:#fff!important;white-space:nowrap}
+.thim-ekits-course__content{margin-top:0!important;padding-top:18px!important}
+.site-footer .elementor-invisible{visibility:visible!important;opacity:1!important;animation:none!important}
