@@ -105,3 +105,7 @@
 .flaticon-pencil-case:before{content:"\f303"!important}.flaticon-networking:before{content:"\f6ff"!important}.flaticon-medal:before{content:"\f5a2"!important}
 .flaticon-learning-1:before{content:"\f19d"!important}.flaticon-geography:before{content:"\f0ac"!important}.flaticon-books-1:before{content:"\f02d"!important}
 .thim-ekits-menu__icon-menu-back:before{content:"\f104"!important}
+/* UniCamp: mũi tên slider dùng mã Font Awesome */
+@font-face{font-family:'UnicampArrow';src:url(fa-solid-900.woff2) format('woff2');font-weight:400;font-style:normal;font-display:block}
+/* Slider Revolution chạy dạng tĩnh (thư viện ở server theme): nút chuyển slide không hoạt động -> ẩn */
+sr7-arrow,sr7-bullets{display:none!important}
