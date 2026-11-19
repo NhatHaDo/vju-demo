@@ -39,3 +39,5 @@ html,body{overflow-x:hidden}
 }
 #SR7_3_1 sr7-arrow,#SR7_3_1 sr7-bullets,#SR7_3_1 sr7-img{display:none!important}
 .rstb-header .prelements-heading *,.rstb-header h1,.rstb-header h2,.rstb-header h3,.rstb-header h4,.rstb-header h5,.rstb-header h6{text-transform:none!important}
+@media (min-width:768px){sr7-module#SR7_3_1,#SR7_3_1 sr7-content,#SR7_3_1 sr7-slide{width:100%!important;left:0!important}}
+@media (min-width:1360px){#SR7_3_1 sr7-slide[data-key="12"] > sr7-mask:not(:first-child){transform:translateX(calc((100vw - 1320px) / 2))!important}}
